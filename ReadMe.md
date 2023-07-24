@@ -1,6 +1,6 @@
-# VRLM
+# VRLM: Variance-reduced accelerated methods for decentralized stochastic double-regularized nonconvex strongly-concave minimax problems
 
-This document provides instructions on how to reproduce the experimental results from the VRLM paper. Covered in this document are:
+This document provides instructions on how to reproduce the experimental results from the [VRLM paper](https://arxiv.org/abs/2307.07113). Covered in this document are:
 
 - package requirements utilized in the experiments
 - instructions on how to reproduce the results from the paper (i.e. hyperparameter settings, etc.)
@@ -79,7 +79,15 @@ class NewMethod(BaseDL):
 
 ## Citation
 
-If you use this code in your research, please cite this repository.
+If you use this code in your research, please cite our paper:
+```
+@article{mancino2023variance,
+  title={Variance-reduced accelerated methods for decentralized stochastic double-regularized nonconvex strongly-concave minimax problems},
+  author={Mancino-Ball, Gabriel and Xu, Yangyang},
+  journal={arXiv preprint arXiv:2307.07113},
+  year={2023}
+}
+```
 
 
 
